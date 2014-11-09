@@ -19,7 +19,7 @@ class Settings:
             self.__pm = PoolManager(timeout=Timeout(10),
                                     headers={'Accept-Encoding': 'gzip,deflate'})
             self.__settings = None
-            self.providersListDefaultValue = "https://raw.githubusercontent.com/cr0wbar/fishnet/master/providers.json"
+            self.providersListDefaultValue = "https://raw.githubusercontent.com/cr0wbar/fishnet-providers/master/providers.json"
             self.downloadProvidersListAtStartupDefaultValue = True
             self.providersDefaultValue = {"remote":[],"local":[]}
             self.pagesDefaultValue = 3
