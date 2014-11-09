@@ -8,7 +8,7 @@ class Globals:
     reportABugLink = "https://github.com/cr0wbar/fishnet/issues"
     programDescription = "A simple tool to search for torrents."
     mailTo = "guglielmo.deconcini@gmail.com"
-    version = "0.9-SNAPSHOT"
+    version = "0.9-BETA"
     
     def __init__(self):
         if not self.__rootPath:
