@@ -1,21 +1,6 @@
 from os.path import expanduser
 from PyQt5 import QtCore
 
-'''
-Until pyqtdeploy guys implement a way
-to check if an application is bundled 
-or not, we will use this horrible way 
-of knowing where we are. When 
-'''
-'''
-try import pyqtdeploy:
-    import sys
-    rootPath = QtCore.QFileInfo(sys.executable).absolutePath() + "/"
-except ImportError:
-    rootPath = QtCore.QFileInfo(__file__).absolutePath() + "/"
-'''
-
-
 class Globals:
     
     __rootPath = None
